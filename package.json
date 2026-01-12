@@ -1,0 +1,16 @@
+{
+  "name": "magicbank-visitas",
+  "version": "1.0.0",
+  "description": "Backend de visitas guiadas temporales MagicBank",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "dotenv": "^16.4.5",
+    "crypto": "^1.0.1",
+    "cors": "^2.8.5"
+  }
+}
